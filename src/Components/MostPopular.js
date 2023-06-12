@@ -4,18 +4,18 @@ import { AiOutlineClockCircle } from 'react-icons/ai'
 function MostPopular(props) {
   return (
     <div>
-        <div className='cards'>
+        <div className='card'>
             <div>
-                <img src={`${props.img}`} alt='some food image'></img>
-                <div>
-                    <span>
+                <img src={`${props.img}`} alt='some food image' className='w-full h-32 sm:h-48 object-cover'></img>
+                <div className='m-4'>
+                    <span className='font-bold'>{props.name}</span>
+                    <span className='block text-gray text-sm'>Recipe by {props.chef}</span>
+                </div>
+                <div className='badge'>
+                    <span className='mr-1'>
                         <AiOutlineClockCircle size={15} />
                     </span>
                     <span>{props.time} mins</span>
-                </div>
-                <div>
-                    <span>{props.name}</span>
-                    <span>Recipe by {props.chef}</span>
                 </div>
             </div>
         </div>
