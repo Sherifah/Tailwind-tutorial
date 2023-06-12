@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontSize: {
         'mam': '8rem'
+      },
+      fontFamily: {
+        body: ['Nunito']
       }
     },
   },

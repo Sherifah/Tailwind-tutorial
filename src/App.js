@@ -6,7 +6,7 @@ import TopNavBar from "./Components/TopNavBar";
 
 const App = () => {
     return (
-        <div className="App text-gray-600">
+        <div className="App text-gray-600 font-body">
            <SideBar />
            <main className="main px-16 py-6 ">
                 <TopNavBar />
