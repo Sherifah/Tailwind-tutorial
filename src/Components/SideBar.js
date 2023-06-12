@@ -6,7 +6,7 @@ function SideBar() {
   return (
     <div>
         <nav>
-            <div className='logo text-mam font-bold uppercase p-4 border-b border-gray-100'>
+            <div className='logo font-bold uppercase p-4 border-b border-gray-100'>
                 <a href="true">
                     <h1 className=''>My Kitchen</h1>
                 </a>
