@@ -45,8 +45,8 @@ function Recipes() {
                     {MostPopularList}
                 </div>
             </div>
-            <div>
-                <div>Load More</div>
+            <div className='flex justify-center'>
+                <div className='bg-secondary-100 text-secondary-200'>Load More</div>
             </div>
         </div>
     </div>
