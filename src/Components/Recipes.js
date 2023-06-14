@@ -35,18 +35,18 @@ function Recipes() {
         <div>
             <div>
                 <h4 className='font-bold mt-12 pb-2 border-b border-gray-100'>Lastest Recipes</h4>
-                <div className='mt-8'>
+                <div className='mt-8 grid lg:grid-cols-3 gap-10'>
                     {LatestRecipeList}
                 </div>
             </div>
             <div>
                 <h4 className='font-bold mt-12 pb-2 border-b border-gray-100'>Most Popular</h4>
-                <div className='mt-8'>
+                <div className='mt-8 grid lg:grid-cols-3 gap-10'>
                     {MostPopularList}
                 </div>
             </div>
             <div className='flex justify-center'>
-                <div className='bg-secondary-100 text-secondary-200'>Load More</div>
+                <div className='btn mt-10 bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300'>Load More</div>
             </div>
         </div>
     </div>

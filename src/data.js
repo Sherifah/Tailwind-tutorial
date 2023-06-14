@@ -1,6 +1,6 @@
 export default [
         { 
-        "name": "Fried Rice with Chicken",
+        "name": "Fried Rice with Salad",
         "chef": "Khadijah",
         "img": "../images/fried-rice.jpg",
         "time": 60
@@ -12,7 +12,7 @@ export default [
         "time": 25
         },
         {
-        "name": "Jollof Rice with Coleslaw",
+        "name": "Jollof Rice with Chicken",
         "chef": "Beejay",
         "img": "../images/jollof-rice.jpg",
         "time": 40
